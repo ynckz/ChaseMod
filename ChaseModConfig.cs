@@ -7,7 +7,7 @@ public sealed class FreezeRingParticle
 {
     [JsonPropertyName("enabled")] public bool Enabled { get; set; } = false;
     [JsonPropertyName("vpcfFile")] public string VpcfFile { get; set; } = "particles/example/freezering.vpcf";
-    [JsonPropertyName("lifetime")] public float Lifetime { get; set; } = 0.35f;
+    [JsonPropertyName("lifetime")] public float Lifetime { get; set; } = 0.30f;
 }
 
 public sealed class ChaseModConfig : BasePluginConfig
